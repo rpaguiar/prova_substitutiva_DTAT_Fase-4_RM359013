@@ -26,7 +26,7 @@ Durante o desenvolvimento, foram testados dois modelos de previsão:
 ## Link da Aplicação
 
 Deploy disponível em:  
-🔗 [https://prova_substitutiva_DTAT_Fase-4_RM359013.streamlit.app](https://prova_substitutiva_DTAT_Fase-4_RM359013.streamlit.app)
+🔗 [https://prova-substitutiva-dtat-fase-4-rm359013.streamlit.app](https://prova-substitutiva-dtat-fase-4-rm359013.streamlit.app)
 
 ---
 
