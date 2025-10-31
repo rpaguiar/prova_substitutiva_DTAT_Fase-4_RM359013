@@ -17,7 +17,7 @@ Durante o desenvolvimento, foram testados dois modelos de previsão:
 | Modelo         | MAE   | RMSE  | MAPE   | Precisão |
 |----------------|-------|-------|--------|----------|
 | SARIMA         | 5.24  | 6.16  | 7.51%  | 92.49%   |
-| Random Forest  | 3.01  | 4.10  | 4.32%  | 95.68%   |
+| Random Forest  | 2.78  | 3.84  | 4.00%  | 95.68%   |
 
 > O modelo **Random Forest** foi escolhido para o painel por apresentar menor erro médio e maior precisão nas previsões de curto e médio prazo.
 
