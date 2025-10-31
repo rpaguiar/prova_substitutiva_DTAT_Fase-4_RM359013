@@ -81,7 +81,7 @@ fig.add_trace(go.Scatter(
 ))
 
 fig.update_layout(
-    yaxis=dict(range=[64, 68]),
+    yaxis=dict(range=[64, 70]),
     xaxis_title='Data',
     yaxis_title='Preço do Petróleo (USD)',
     hovermode='x unified',
@@ -101,9 +101,9 @@ st.download_button(
     mime="text/csv"
 )
 
-# 🔹 Desempenho do modelo (últimos 180 dias)
+# 🔹 Desempenho do modelo
 
-st.subheader("📊 Desempenho do modelo nos últimos 180 dias")
+st.subheader("📊 Desempenho do modelo")
 col1, col2, col3 = st.columns(3)
 col1.metric("Erro médio por dia", "2.78 USD")
 col2.metric("Desvio médio", "3.84 USD")
@@ -114,8 +114,7 @@ col3.metric("Precisão percentual", "96.00%")
 st.subheader("🧠 Observações")
 st.markdown(f"""
 - O modelo prevê uma **leve queda inicial**, seguida de **recuperação gradual**.
-- A cotação varia entre aproximandamente **64 e 68 USD** ao longo período.
-- O padrão indica **estabilidade com tendência de alta moderada**.
-- O modelo apresenta um **erro médio diário de 2.78 USD** e uma **precisão de 96.00%** nos últimos 180 dias.
+- O padrão indica **estabilidade com tendência de alta moderada**
+- O modelo apresenta um **erro médio diário de 2.78 USD** e uma **precisão de 96.00%** 
 - O modelo Random Forest apresentou melhor desempenho em testes recentes e foi escolhido para esta previsão.
 """)
